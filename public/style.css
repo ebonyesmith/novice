@@ -5,8 +5,7 @@ head {
 .grid1 {
   display: grid;
   border: 2px #333740 solid;
-  background-color: #333740;
-  grid-template-columns: repeat(11, 100px);
+  grid-template-columns: repeat(11, 83px);
   grid-template-rows: 100px;
   grid-column-gap: 10px;
 }
