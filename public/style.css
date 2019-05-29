@@ -32,6 +32,7 @@ head {
 .testing {
   border: 2px #333740 solid;
   text-align: center;
+  font-family: roboto;
 }
 
 .category,
@@ -55,5 +56,5 @@ head {
 .category,
 .activity {
   background-color: #d82631;
-  font: white;
+  color: white;
 }
