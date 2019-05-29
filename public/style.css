@@ -9,7 +9,7 @@
 .grid2 {
   border: 2px #333740 solid;
   height: 700px;
-  width: 1270px;
+  width: 1275px;
   display: grid;
   grid-template-columns: 25% 75%;
   grid-template-rows: 10% 20% 30% 40%;
@@ -29,7 +29,7 @@
   border: 2px #333740 solid;
   text-align: center;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 200;
 }
 
