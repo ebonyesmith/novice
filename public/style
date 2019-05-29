@@ -2,11 +2,24 @@ head {
   background-color: #333740;
 }
 
-.grid {
+.grid1 {
+  display: grid;
   border: 2px #333740 solid;
-  height: 400px;
-  width: 500px;
+  background-color: #333740;
+  grid-template-columns: repeat(11, 50px);
+  grid-template-rows: 100px;
+  grid-column-gap: 10px;
+}
+
+.grid2 {
+  border: 2px #333740 solid;
+  height: 700px;
+  width: 1000px;
   display: grid;
   grid-template-columns: 25% 75%;
   grid-row-columns: 10% 20% 30% 40%;
+}
+
+.configurationManagement, .construction, .design, .foundations, .maintenance, .modelsAndMethods, .process, .management, .quality, .requirements, .testing {
+  border: 2px #333740 solid;
 }
