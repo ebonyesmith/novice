@@ -44,3 +44,15 @@ head {
 .blank3 {
   border-bottom: 2px #333740 solid;
 }
+
+.category,
+.reading,
+.training,
+.professionalExperience {
+  border-right: 2px #333740 solid;
+}
+
+.category,
+.activity {
+  background-color: #d82631;
+}
