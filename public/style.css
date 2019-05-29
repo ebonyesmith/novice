@@ -16,7 +16,7 @@ head {
   width: 1000px;
   display: grid;
   grid-template-columns: 25% 75%;
-  grid-template-columns: 10% 20% 30% 40%;
+  grid-template-rows: 10% 20% 30% 40%;
 }
 
 .configurationManagement,
