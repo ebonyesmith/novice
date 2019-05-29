@@ -13,7 +13,7 @@ head {
 .grid2 {
   border: 2px #333740 solid;
   height: 700px;
-  width: 1000px;
+  width: 1266px;
   display: grid;
   grid-template-columns: 25% 75%;
   grid-template-rows: 10% 20% 30% 40%;
@@ -55,4 +55,5 @@ head {
 .category,
 .activity {
   background-color: #d82631;
+  font: white;
 }
