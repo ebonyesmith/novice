@@ -13,7 +13,7 @@ head {
 .grid2 {
   border: 2px #333740 solid;
   height: 700px;
-  width: 1266px;
+  width: 1264px;
   display: grid;
   grid-template-columns: 25% 75%;
   grid-template-rows: 10% 20% 30% 40%;
@@ -32,7 +32,7 @@ head {
 .testing {
   border: 2px #333740 solid;
   text-align: center;
-  font-family: roboto;
+  font-family: "Roboto", sans-serif;
 }
 
 .category,
@@ -44,6 +44,7 @@ head {
 .professionalExperience,
 .blank3 {
   border-bottom: 2px #333740 solid;
+  font-family: "Roboto", sans-serif;
 }
 
 .category,
