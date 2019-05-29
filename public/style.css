@@ -4,9 +4,10 @@ head {
 
 .grid1 {
   display: grid;
-  grid-template-columns: repeat(11, 93px);
+  grid-template-columns: repeat(11, 100px);
   grid-template-rows: 100px;
   grid-column-gap: 10px;
+  padding-bottom: 15px;
 }
 
 .grid2 {
@@ -30,4 +31,5 @@ head {
 .requirements,
 .testing {
   border: 2px #333740 solid;
+  text-align: center;
 }
