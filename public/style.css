@@ -1,6 +1,6 @@
 .grid1 {
   display: grid;
-  grid-template-columns: repeat(11, 106px);
+  grid-template-columns: repeat(11, 18px);
   grid-template-rows: 100px;
   grid-column-gap: 10px;
   padding-bottom: 15px;
@@ -9,7 +9,7 @@
 .grid2 {
   border: 2px #333740 solid;
   height: 700px;
-  width: 1264px;
+  width: 1270px;
   display: grid;
   grid-template-columns: 25% 75%;
   grid-template-rows: 10% 20% 30% 40%;
