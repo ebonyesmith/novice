@@ -33,6 +33,10 @@ head {
   border: 2px #333740 solid;
   text-align: center;
   font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  background-color: #333740;
+  color: white;
 }
 
 .category,
