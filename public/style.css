@@ -4,15 +4,16 @@
   grid-template-rows: 100px;
   grid-column-gap: 10px;
   padding-bottom: 15px;
+  padding-left: 170px;
 }
 
 .grid2 {
-  border: 2px #333740 solid;
   height: 700px;
   width: 1285px;
   display: grid;
   grid-template-columns: 15% 85%;
   grid-template-rows: 10% 20% 30% 40%;
+  padding-left: 170px;
 }
 
 .configurationManagement,
@@ -52,10 +53,19 @@
 .training,
 .professionalExperience {
   border-right: 2px #333740 solid;
+  border-left: 2px #333740 solid;
 }
 
 .category,
 .activity {
   background-color: #d82631;
   color: white;
+  border-top: 2px #333740 solid;
+}
+
+.activity,
+.blank1,
+.blank2,
+.blank3 {
+  border-right: 2px #333740 solid;
 }
