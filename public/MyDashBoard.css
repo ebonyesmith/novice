@@ -1,10 +1,11 @@
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  overflow: hidden;
 }
 
 .app {
   margin-left: 160px;
-  margin-top: 50px;
 }
 
 .sidenav {
@@ -33,54 +34,47 @@ body {
   color: #333740 !important;
   font-size: 26px; /* Increased text to enable scrolling */
 }
-
 .grid {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
 }
 
-.main p {
+.column h3 {
   text-align: center;
 }
 
-.main h1 {
-  text-align: center;
+.assignmentlist {
+  list-style: none;
 }
 
-.utilitybar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 65px;
+.assignmentlist li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.utilbar {
   width: 100%;
-  background-color: #d82631;
+  height: 65px;
   margin-left: 160px;
+  padding: 0;
+  background-color: #d82631;
 }
 
-.utilitybargrid {
-  margin-left: 65px;
-  margin-right: 20px;
+.utilbargrid {
+}
+
+.utilbargrid h1 {
+  color: white;
+}
+
+.topbar {
   display: grid;
-  grid-template-areas: "left right";
-  grid-template-columns: auto 100px;
-  height: 100%;
+  grid-template-areas: "text text text";
+  grid-template-columns: repeat(1ft, 3);
+  background-color: rgb(173, 10, 10);
 }
 
-.button {
-  grid-area: right;
-  width: 100px;
-  background-color: white;
-  color: #333740;
-  float: right;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  border: none;
-  font-size: 16px;
-  border-radius: 8px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-.button:hover {
-  background-color: lightgray;
+.topbar h3 {
+  text-align: center;
+  color: white;
 }
