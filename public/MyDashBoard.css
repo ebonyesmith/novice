@@ -66,3 +66,15 @@ body {
 .utilbargrid h1 {
   color: white;
 }
+
+.topbar {
+  display: grid;
+  grid-template-areas: "text text text";
+  grid-template-columns: repeat(1ft, 3);
+  background-color: rgb(173, 10, 10);
+}
+
+.topbar h3 {
+  text-align: center;
+  color: white;
+}
