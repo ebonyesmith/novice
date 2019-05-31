@@ -33,11 +33,7 @@ body {
   font-size: 26px; /* Increased text to enable scrolling */
 }
 
-/* @media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-  }
-} */
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
