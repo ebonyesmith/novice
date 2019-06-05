@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   overflow: hidden;
+  overflow-y: auto;
 }
 
 .app {
@@ -90,10 +91,11 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   min-width: 700px;
+  max-width: 1200px;
   width: auto;
   height: 90px;
   padding-left: 235px;
-  padding-right: 170px;
+  padding-right: 100px;
   padding-top: 10px;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(2, 55px);
@@ -129,14 +131,19 @@ body {
   font-size: 18px;
   padding-top: 50px;
   text-align: center;
-  padding-left: 100px;
+  padding-left: 170px;
+  padding-right: 170px;
+  max-width: 1300px;
 }
 
 .table {
-  padding-left: 460px;
+  padding-left: 400px;
   padding-right: 400px;
+  padding-bottom: 40px;
   display: grid;
-  grid-template-columns: 110px repeat(11, 45px);
+  grid-template-columns: 125px repeat(11, auto);
+  grid-template-rows: 200px repeat(4, 30px);
+  max-width: 850px;
 }
 
 .configurationManagement,
@@ -178,11 +185,13 @@ body {
 
 .grid2 {
   height: 700px;
-  width: 1285px;
+  width: auto;
+  max-width: 1200px;
   display: grid;
   grid-template-columns: 15% 85%;
   grid-template-rows: 10% 20% 30% 40%;
   padding-left: 170px;
+  padding-right: 15px;
 }
 .category,
 .activity,
