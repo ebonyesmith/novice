@@ -131,14 +131,14 @@ body {
   font-size: 18px;
   padding-top: 50px;
   text-align: center;
-  padding-left: 170px;
+  padding-left: 280px;
   padding-right: 170px;
   max-width: 1300px;
 }
 
 .table {
-  padding-left: 400px;
-  padding-right: 400px;
+  padding-left: 450px;
+  padding-right: 350px;
   padding-bottom: 40px;
   display: grid;
   grid-template-columns: 125px repeat(11, auto);
@@ -189,9 +189,10 @@ body {
   max-width: 1200px;
   display: grid;
   grid-template-columns: 15% 85%;
-  grid-template-rows: 10% 20% 30% 40%;
+  grid-template-rows: 7% 23% 30% 40%;
   padding-left: 170px;
   padding-right: 15px;
+  padding-bottom: 15px;
 }
 .category,
 .activity,
