@@ -1,3 +1,11 @@
+.main {
+  padding-left: 155px;
+  padding-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 33px;
+  padding-top: 15px;
+}
+
 .grid1 {
   display: grid;
   grid-template-columns: repeat(11, 108px);
@@ -32,6 +40,21 @@
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 200;
+}
+
+.configurationManagement:hover,
+.construction:hover,
+.design:hover,
+.foundations:hover,
+.maintenance:hover,
+.modelsAndMethods:hover,
+.process:hover,
+.management:hover,
+.quality:hover,
+.requirements:hover,
+.testing:hover {
+  background-color: #333740;
+  color: white;
 }
 
 .category,
