@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/PersonalLibrary.css" />
+    <link rel="stylesheet" href="PersonalLibrary.css" />
   </head>
   <body>
     <div class="sidenav">
@@ -12,9 +12,15 @@
       <a href="/inbox.html">Inbox</a>
     </div>
     <div class="app">
-      <div class="grid"></div>
-        <div>
-          <h1>Personal Library</h1>
+      <div class="utilitybar">
+        <div class="utilitybargrid">
+          <button class="button">Add</button>
+          <button class="button">Filter</button>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="main">
+          <h1>User Library</h1>
           <p><u>User Inserted Resource</u></p>
           <p><u>User Inserted Resource</u></p>
           <p><u>User Inserted Resource</u></p>
@@ -25,5 +31,13 @@
           <p><u>User Inserted Resource</u></p>
           <p><u>User Inserted Resource</u></p>
         </div>
-       </body>
+      </div>
+    </div>
+    <input
+      type="text"
+      id="myInput"
+      onkeyup="myFunction()"
+      placeholder="Search for names.."
+    />
+  </body>
 </html>
